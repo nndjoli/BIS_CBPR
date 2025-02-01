@@ -11,6 +11,8 @@ BIS_CBPR
  
 Requirements: `requests` , `datetime`, `pandas`.
 
+Install using: `pip install BIS-CBPR`
+
 ---
 Example: 
 
