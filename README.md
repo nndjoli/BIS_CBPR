@@ -19,10 +19,10 @@ Example:
 ```python
 from MyPackages import BIS_CBPR
 
-CentralBankPolicyRates("United States")
+BIS_CBPR.CentralBankPolicyRates("United States")
 # >>> 0.04375  # As of 2025/02/01
 
-CentralBankPolicyRates()
+BIS_CBPR.CentralBankPolicyRates()
 # >>> {'United States': {'Frequency': 'Daily',
 #   'Country': 'United States',
 #   'Country Code': 'US',
