@@ -1,7 +1,15 @@
-Retrieves policy rates from central banks using the BIS API.
-If no country/ is specified, outputs data as a dictionary by country. 
-Else, returns the current rate as a float.
+BIS_CBPR
+---
 
+- Retrieves policy rates from central banks using the BIS API.  
+- If no country/ is specified, outputs data as a dictionary by country.
+- Else, returns the current rate as a float.  
+
+---
+ 
+Requirements: `requests` , `datetime`, `pandas`.
+
+---
 Example: 
 
 ```python
