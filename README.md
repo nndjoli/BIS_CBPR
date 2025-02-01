@@ -3,7 +3,9 @@ BIS_CBPR
 
 - Retrieves policy rates from central banks using the BIS API.  
 - If no country/ is specified, outputs data as a dictionary by country.
-- Else, returns the current rate as a float.  
+- Else, returns the current rate as a float.
+
+ - Guide is available <a href="https://github.com/ndjoli-nathan/BIS_CBPR/blob/main/Guide.ipynb">here.</a>
 
 ---
  
