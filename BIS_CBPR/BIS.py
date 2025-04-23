@@ -19,7 +19,7 @@ class CentralBankPolicyRates:
         JsonData = {
             "search_for": [{"search_term": "*", "field_id": ""}],
             "filters": [
-                {"field_id": "CATEGORY", "search_term": "CBPOL"},
+                {"field_id": "_CATEGORY", "search_term": "CBPOL"},
                 {"field_id": "FREQ", "search_term": "D"},
                 {"field_id": "TIMESPAN", "search_term": f"2000-01-01_{Today}"},
             ],
